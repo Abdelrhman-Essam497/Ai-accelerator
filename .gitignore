@@ -1,0 +1,35 @@
+# --- General VHDL/Simulation ---
+*.cf
+*.wlf
+*.vcd
+*.log
+*.jou
+work/
+transcript
+
+# --- OS/Editor Garbage ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Xilinx Vivado Specific ---
+.Xil/
+*.jou
+*.log
+*.pb
+*.str
+*.dir/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.sdk/
+*.gen/
+
+# --- Intel Quartus Specific ---
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+hc_output/
